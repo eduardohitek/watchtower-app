@@ -18,11 +18,15 @@ public class TimeOpenHelper extends SQLiteOpenHelper {
 	    TimeEntry.COLUMN_NAME_1_TIME + TEXT_TYPE + COMMA_SEP +
 	    TimeEntry.COLUMN_NAME_2_TIME + TEXT_TYPE + COMMA_SEP +
 	    TimeEntry.COLUMN_NAME_3_TIME + TEXT_TYPE + COMMA_SEP +
-	    TimeEntry.COLUMN_NAME_4_TIME + TEXT_TYPE + COMMA_SEP +
+	    TimeEntry.COLUMN_NAME_4_TIME + TEXT_TYPE +
 	    " )";
 
 	private static final String SQL_DELETE_ENTRIES =
 	    "DROP TABLE IF EXISTS " + TimeEntry.TABLE_NAME;
+	
+	public TimeOpenHelper(Context context){
+		super(context, DATABASE_NAME, null, DATABASE_VERSION);
+	}
 
 	
 
