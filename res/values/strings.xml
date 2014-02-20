@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WatchTower</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_title">WatchTower-Apps</string>
+    <string name="first_time">Morning Begin:</string>
+    <string name="second_time">Morning Exit:</string>
+    <string name="third_time">Afternoon Begin:</string>
+    <string name="fourth_time">Afternoon Exit:</string>
+    <string name="button_action">Check-In</string>
+
+</resources>
